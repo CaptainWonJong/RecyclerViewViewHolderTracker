@@ -21,7 +21,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.wonjong.eventdispatcher.R
 import com.wonjong.eventdispatcher.databinding.FragmentComposeBinding
@@ -74,7 +73,6 @@ class ComposeFragment : Fragment() {
     }
 }
 
-@OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable
 fun ComposeRoute(
     viewModel: ComposeViewModel = hiltViewModel(),
