@@ -6,7 +6,7 @@ import com.wonjong.eventdispatcher.event.code.EventTrackingCode
 import org.json.JSONObject
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 enum class EventTrackingType(@EventTrackingCode.Name eventName: String) {
     CLICK_ITEM(EventTrackingCode.CLICK.add(EventTrackingCode.ITEM)) {

@@ -3,7 +3,7 @@ package com.wonjong.eventdispatcher.ui.annotation
 import androidx.compose.ui.tooling.preview.Preview
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-10
+ * Created by CaptainWonJong@gmail.com on 2023-01-10
  */
 @Preview(name = "phone", device = "spec:shape=Normal,width=360,height=640,unit=dp,dpi=480")
 @Preview(name = "landscape", device = "spec:shape=Normal,width=640,height=360,unit=dp,dpi=480")

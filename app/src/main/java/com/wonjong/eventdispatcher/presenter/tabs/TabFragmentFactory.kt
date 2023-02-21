@@ -8,7 +8,7 @@ import com.wonjong.eventdispatcher.presenter.mvvm.MvvmFragment
 import com.wonjong.eventdispatcher.presenter.mvvm_intent.MvvmIntentFragment
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 class TabFragmentFactory : FragmentFactory() {
     override fun instantiate(classLoader: ClassLoader, className: String): Fragment = when (loadFragmentClass(classLoader, className)) {

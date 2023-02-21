@@ -1,7 +1,7 @@
 package com.wonjong.eventdispatcher.presenter.utils
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 sealed class LCE<out T> {
 

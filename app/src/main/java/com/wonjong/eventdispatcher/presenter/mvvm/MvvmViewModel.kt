@@ -16,7 +16,7 @@ import kotlinx.coroutines.plus
 import javax.inject.Inject
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 @HiltViewModel
 class MvvmViewModel @Inject constructor(

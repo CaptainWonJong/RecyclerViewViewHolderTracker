@@ -17,7 +17,7 @@ import com.wonjong.eventdispatcher.ui.theme.Black
 import com.wonjong.eventdispatcher.ui.theme.White
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-10
+ * Created by CaptainWonJong@gmail.com on 2023-01-10
  */
 @Composable
 fun NumberBadge(

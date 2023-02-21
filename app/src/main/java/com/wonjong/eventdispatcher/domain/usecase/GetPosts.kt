@@ -5,7 +5,7 @@ import com.wonjong.eventdispatcher.domain.repository.PostRepository
 import javax.inject.Inject
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-03
+ * Created by CaptainWonJong@gmail.com on 2023-01-03
  */
 class GetPosts @Inject constructor(
     private val postRepository: PostRepository

@@ -1,4 +1,4 @@
-package com.wonjong.eventdispatcher.data.remote.client
+package io.github.captainwonjong.remote.client
 
 import com.google.gson.GsonBuilder
 import dagger.Module
@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-03
+ * Created by CaptainWonJong@gmail.com on 2023-01-03
  */
 @Module
 @InstallIn(SingletonComponent::class)

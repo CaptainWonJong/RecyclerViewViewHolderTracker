@@ -10,7 +10,7 @@ import com.wonjong.eventdispatcher.presenter.compose.dispatcher.events.PostEvent
 import org.json.JSONObject
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-10
+ * Created by CaptainWonJong@gmail.com on 2023-01-10
  */
 class ComposeEventDispatcher(
     private val viewModel: ComposeViewModel,

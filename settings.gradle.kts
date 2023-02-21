@@ -16,4 +16,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "EventDispatcher"
 include(":app")
-include(":data:model")
+include(
+    ":data:model",
+    ":data:remote",
+)
+include(":data:remote")

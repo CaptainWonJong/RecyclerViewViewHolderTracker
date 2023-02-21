@@ -7,7 +7,7 @@ import org.json.JSONObject
 import javax.inject.Inject
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 class EventTrackerImpl @Inject constructor(@ApplicationContext private val context: Context) : EventTracker {
     override fun send(eventType: EventTrackingType, params: JSONObject?) {

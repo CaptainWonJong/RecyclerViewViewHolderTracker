@@ -45,12 +45,13 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.compose.toString()
+        kotlinCompilerExtensionVersion = libs.versions.compose.get()
     }
 }
 
 dependencies {
     ModelModule
+    RemoteModule
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.ktx)
@@ -67,11 +68,6 @@ dependencies {
 
     implementation(libs.glide)
     implementation(libs.io.coil.kt.compose)
-
-    implementation(libs.okhttp)
-    implementation(libs.logging.interceptor)
-    implementation(libs.converter.gson)
-    implementation(libs.retrofit)
 
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)

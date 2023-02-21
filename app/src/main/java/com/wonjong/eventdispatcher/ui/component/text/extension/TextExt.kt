@@ -7,7 +7,7 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-09
+ * Created by CaptainWonJong@gmail.com on 2023-01-09
  */
 fun Int.textDp(density: Density): TextUnit = with(density) {
     dp.toSp()

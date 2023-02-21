@@ -9,7 +9,7 @@ import com.wonjong.eventdispatcher.domain.entity.PostEntity
 import com.wonjong.eventdispatcher.presenter.utils.IdBasedDiffCallback
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 class MvvmIntentAdapter(
     private val onItemClick: ((PostEntity) -> Unit)? = null

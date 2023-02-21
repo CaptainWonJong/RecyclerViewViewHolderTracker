@@ -6,7 +6,7 @@ import com.wonjong.eventdispatcher.event.type.EventTrackingType
 import org.json.JSONObject
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-06
+ * Created by CaptainWonJong@gmail.com on 2023-01-06
  */
 abstract class PostEventDispatcherExt(
     eventTracker: EventTracker

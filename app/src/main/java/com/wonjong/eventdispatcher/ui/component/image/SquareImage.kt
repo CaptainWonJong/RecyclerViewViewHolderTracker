@@ -26,7 +26,7 @@ import com.wonjong.eventdispatcher.ui.annotation.DevicePreview
 import com.wonjong.eventdispatcher.ui.theme.White
 
 /**
- * Created by leewonjong@29cm.co.kr on 2023-01-09
+ * Created by CaptainWonJong@gmail.com on 2023-01-09
  */
 private object SquareImageDefaults {
     val large = 120.dp

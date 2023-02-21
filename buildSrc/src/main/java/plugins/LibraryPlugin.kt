@@ -1,6 +1,8 @@
 package plugins
 
 import Versions
+import com.android.build.api.dsl.ApplicationExtension
+import com.android.build.api.dsl.LibraryExtension
 import com.android.build.gradle.BaseExtension
 import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.api.JavaVersion
@@ -17,9 +19,7 @@ fun Project.applyLibraryConfig() {
         plugin("kotlin-kapt")
         when (path) {
             ":data:repositoryImpl", ":data:remote", ":domain:usecase" -> {
-                apply {
-                    plugin("dagger.hilt.android.plugin")
-                }
+                plugin("dagger.hilt.android.plugin")
             }
         }
     }
@@ -67,3 +67,5 @@ fun Project.applyComposeConfig() {
 }
 
 private val Project.libs get() = the<LibrariesForLibs>()
+private val Project.libExt get() = the<LibraryExtension>()
+private val Project.appExt get() = the<ApplicationExtension>()
