@@ -1,6 +1,6 @@
-package com.wonjong.eventdispatcher.domain.repository
+package io.github.captainwonjong.repository.post
 
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
+import io.github.captainwonjong.entity.post.PostEntity
 
 /**
  * Created by CaptainWonJong@gmail.com on 2023-01-03

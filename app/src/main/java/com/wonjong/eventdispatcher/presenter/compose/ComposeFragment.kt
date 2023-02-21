@@ -6,11 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -24,7 +28,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.wonjong.eventdispatcher.R
 import com.wonjong.eventdispatcher.databinding.FragmentComposeBinding
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
 import com.wonjong.eventdispatcher.event.EventTracker
 import com.wonjong.eventdispatcher.presenter.compose.dispatcher.ComposeEventDispatcher
 import com.wonjong.eventdispatcher.presenter.compose.dispatcher.events.PostEvents
@@ -34,6 +37,7 @@ import com.wonjong.eventdispatcher.ui.component.progress.LargeLoading
 import com.wonjong.eventdispatcher.ui.component.text.extension.textDp
 import com.wonjong.eventdispatcher.ui.theme.White
 import dagger.hilt.android.AndroidEntryPoint
+import io.github.captainwonjong.entity.post.PostEntity
 import javax.inject.Inject
 
 /**

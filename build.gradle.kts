@@ -9,7 +9,7 @@ plugins {
 }
 
 subprojects {
-    if (name != "app") {
+    if (name != ModulePath.App) {
         applyLibraryConfig()
     }
 }

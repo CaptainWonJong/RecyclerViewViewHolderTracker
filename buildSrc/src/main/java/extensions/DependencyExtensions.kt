@@ -43,3 +43,15 @@ val DependencyHandler.ModelModule
 
 val DependencyHandler.RemoteModule
     get() = implementation(project(mapOf("path" to ModulePath.Remote)))
+
+val DependencyHandler.RepositoryImplModule
+    get() = implementation(project(mapOf("path" to ModulePath.RepositoryImpl)))
+
+val DependencyHandler.RepositoryModule
+    get() = implementation(project(mapOf("path" to ModulePath.Repository)))
+
+val DependencyHandler.EntityModule
+    get() = implementation(project(mapOf("path" to ModulePath.Entity)))
+
+val DependencyHandler.UsecaseModule
+    get() = implementation(project(mapOf("path" to ModulePath.Usecase)))

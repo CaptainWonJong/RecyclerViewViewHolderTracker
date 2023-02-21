@@ -1,5 +1,6 @@
 package plugins
 
+import ModulePath
 import Versions
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.dsl.LibraryExtension
@@ -18,7 +19,7 @@ fun Project.applyLibraryConfig() {
         plugin("kotlin-android")
         plugin("kotlin-kapt")
         when (path) {
-            ":data:repositoryImpl", ":data:remote", ":domain:usecase" -> {
+            ModulePath.RepositoryImpl, ModulePath.Remote, ModulePath.Local -> {
                 plugin("dagger.hilt.android.plugin")
             }
         }
@@ -38,8 +39,7 @@ fun Project.applyLibraryConfig() {
             getByName("release") {
                 minifyEnabled(true)
                 proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro"
+                    getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
                 )
             }
         }

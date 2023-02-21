@@ -3,10 +3,10 @@ package com.wonjong.eventdispatcher.presenter.mvvm
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
-import com.wonjong.eventdispatcher.domain.usecase.GetPosts
 import com.wonjong.eventdispatcher.presenter.utils.LCE
 import dagger.hilt.android.lifecycle.HiltViewModel
+import io.github.captainwonjong.entity.post.PostEntity
+import io.github.captainwonjong.usecase.post.GetPosts
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

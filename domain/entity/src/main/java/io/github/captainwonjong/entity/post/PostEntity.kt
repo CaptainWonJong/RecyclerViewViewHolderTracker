@@ -1,4 +1,4 @@
-package com.wonjong.eventdispatcher.domain.entity
+package io.github.captainwonjong.entity.post
 
 import androidx.annotation.ColorInt
 

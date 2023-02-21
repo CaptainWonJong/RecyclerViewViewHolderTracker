@@ -19,5 +19,10 @@ include(":app")
 include(
     ":data:model",
     ":data:remote",
+    ":data:repositoryImpl",
 )
-include(":data:remote")
+include(
+    ":domain:repository",
+    ":domain:entity",
+    ":domain:usecase",
+)

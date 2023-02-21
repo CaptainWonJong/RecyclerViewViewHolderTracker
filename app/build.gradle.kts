@@ -50,8 +50,9 @@ android {
 }
 
 dependencies {
-    ModelModule
-    RemoteModule
+    EntityModule
+    UsecaseModule
+    RepositoryImplModule
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.ktx)
@@ -63,8 +64,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
     implementation(libs.material)
-
-    implementation(libs.kotlin.coroutines.core)
 
     implementation(libs.glide)
     implementation(libs.io.coil.kt.compose)

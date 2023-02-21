@@ -1,7 +1,7 @@
-package com.wonjong.eventdispatcher.domain.usecase
+package io.github.captainwonjong.usecase.post
 
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
-import com.wonjong.eventdispatcher.domain.repository.PostRepository
+import io.github.captainwonjong.entity.post.PostEntity
+import io.github.captainwonjong.repository.post.PostRepository
 import javax.inject.Inject
 
 /**

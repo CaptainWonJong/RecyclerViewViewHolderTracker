@@ -3,9 +3,9 @@ package com.wonjong.eventdispatcher.presenter.mvi
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
-import com.wonjong.eventdispatcher.domain.usecase.GetPosts
 import dagger.hilt.android.lifecycle.HiltViewModel
+import io.github.captainwonjong.entity.post.PostEntity
+import io.github.captainwonjong.usecase.post.GetPosts
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow

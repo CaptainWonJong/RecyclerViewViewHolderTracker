@@ -16,7 +16,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.wonjong.eventdispatcher.R
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
 import com.wonjong.eventdispatcher.ui.annotation.DevicePreview
 import com.wonjong.eventdispatcher.ui.component.image.SquareImage
 import com.wonjong.eventdispatcher.ui.component.text.NumberBadge
@@ -24,6 +23,7 @@ import com.wonjong.eventdispatcher.ui.component.text.extension.textDp
 import com.wonjong.eventdispatcher.ui.theme.Black
 import com.wonjong.eventdispatcher.ui.theme.Gray
 import com.wonjong.eventdispatcher.ui.theme.White
+import io.github.captainwonjong.entity.post.PostEntity
 
 /**
  * Created by CaptainWonJong@gmail.com on 2023-01-10

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wonjong.eventdispatcher.databinding.ItemPostBinding
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
 import com.wonjong.eventdispatcher.presenter.utils.IdBasedDiffCallback
+import io.github.captainwonjong.entity.post.PostEntity
 
 /**
  * Created by CaptainWonJong@gmail.com on 2023-01-06

@@ -1,9 +1,9 @@
-package com.wonjong.eventdispatcher.data.repositoryImpl
+package io.github.captainwonjong.repositoryImpl.post
 
-import com.wonjong.eventdispatcher.data.repositoryImpl.mapper.PostMapper
-import com.wonjong.eventdispatcher.domain.entity.PostEntity
-import com.wonjong.eventdispatcher.domain.repository.PostRepository
+import io.github.captainwonjong.entity.post.PostEntity
 import io.github.captainwonjong.remote.api.PostService
+import io.github.captainwonjong.repository.post.PostRepository
+import io.github.captainwonjong.repositoryImpl.post.mapper.PostMapper
 import javax.inject.Inject
 
 /**
