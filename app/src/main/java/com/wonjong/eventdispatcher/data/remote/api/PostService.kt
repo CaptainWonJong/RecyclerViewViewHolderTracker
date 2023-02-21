@@ -1,6 +1,6 @@
 package com.wonjong.eventdispatcher.data.remote.api
 
-import com.wonjong.eventdispatcher.data.model.PostRaw
+import io.github.captainwonjong.model.post.PostRaw
 import retrofit2.http.GET
 
 /**

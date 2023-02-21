@@ -1,4 +1,4 @@
-package com.wonjong.eventdispatcher.data.model
+package io.github.captainwonjong.model.post
 
 import com.google.gson.annotations.SerializedName
 

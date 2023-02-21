@@ -1,3 +1,5 @@
+import extensions.*
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -7,12 +9,14 @@ plugins {
 
 android {
     namespace = "com.wonjong.eventdispatcher"
-    compileSdk = 33
+    compileSdk = Versions.CompileSdkVersion
 
     defaultConfig {
         applicationId = "com.wonjong.eventdispatcher"
-        minSdk = 21
-        targetSdk = 33
+        minSdk = Versions.MinSdkVersion
+        targetSdk = Versions.TargetSdkVersion
+        buildToolsVersion = Versions.BuildToolsVersion
+
         versionCode = 1
         versionName = "1.0"
 
@@ -41,11 +45,13 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.3.2"
+        kotlinCompilerExtensionVersion = libs.versions.compose.toString()
     }
 }
 
 dependencies {
+    ModelModule
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)
@@ -66,7 +72,6 @@ dependencies {
     implementation(libs.logging.interceptor)
     implementation(libs.converter.gson)
     implementation(libs.retrofit)
-    implementation(libs.gson)
 
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)

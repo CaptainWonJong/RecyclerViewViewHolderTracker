@@ -1,8 +1,8 @@
 package com.wonjong.eventdispatcher.data.repositoryImpl.mapper
 
 import android.graphics.Color
-import com.wonjong.eventdispatcher.data.model.PostRaw
 import com.wonjong.eventdispatcher.domain.entity.PostEntity
+import io.github.captainwonjong.model.post.PostRaw
 import java.util.*
 
 /**
